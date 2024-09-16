@@ -6,7 +6,7 @@ if(strpos("localhost",$requestUri) > 0){
     $dev_mode=true;
 }
 
-if($path[1]){
+if(isset($path[1])){
     $method = $path[1];
 }else{
     $method = 'view';
@@ -14,5 +14,5 @@ if($path[1]){
 
 if($method){
 //    include_once
-
+    var_dump($method);
 }
