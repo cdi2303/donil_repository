@@ -80,7 +80,7 @@ header("Access-Control-Allow-Origin: *");
         // });
 
         $.ajax({
-            url: 'https://thingproxy.freeboard.io/fetch/https://www.postb.in/1727590109071-1778871323913',
+            url: 'https://thingproxy.freeboard.io/fetch/https://www.postb.in/1727592465389-8911009770818',
             type: 'GET',
             headers: {
                 'X-Status': 'Awesome'
